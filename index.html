@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Prasanna Ganapathi Temple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">S</div>
+            <div class="logo-text">Sri Prasanna Ganapathi Seva Charitable Trust</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutUS">About Us</a>
+                </li>
+                <li>
+                    <a href="#events">Events</a>
+                </li>
+                <li>
+                    <a href="#poojas">Poojas</a>
+                </li>
+                <li>
+                    <a href="#donations">Donations</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Us</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1>
+                        About Us
+                    </h1>
+                    <p>
+                        Sri Prasanna Ganapathi Seva Charitable Trust is a sacred haven dedicated to Lord Ganesha, the
+                        remover of obstacles and harbinger of good fortune. Our temple stands as a beacon of hope,
+                        spirituality, and community service, welcoming devotees from all walks of life.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">
+                            Donate Now
+                        </a>
+                        <a href="#" class="button white">
+                            Book Pooja
+                        </a>
+                    </div>
+                    <!-- <div class="social-links">
+						<a href="#">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="#">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div> -->
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/g3.png" alt="Adrian Twarog" width="100%" />
+            </div>
+        </section>
+        <!-- <section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section> -->
+        <section class="upcoming-events container">
+            <h2>Upcoming Events</h2>
+            <div class="events-container">
+                <div class="events-wrapper">
+                    <div class="events-grid">
+                        <!-- Event 1 -->
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Akshaya Tritiya Special Pooja">Akshaya Tritiya Special
+                                    Pooja</h3>
+                                <div class="card-text">
+                                    <p>Date: May 15th, 2024</p>
+                                    <p>Time: 10:00 AM</p>
+                                </div>
+                                <a href="/events/akshaya-tritiya" class="card-button">More Details</a>
+                            </div>
+                        </div>
+
+                        <!-- Event 2 -->
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Monthly Sankashti Chaturthi">Monthly Sankashti Chaturthi
+                                </h3>
+                                <div class="card-text">
+                                    <p>Date: June 3rd, 2024</p>
+                                    <p>Time: 6:00 PM</p>
+                                </div>
+                                <a href="/events/sankashti-chaturthi" class="card-button">More Details</a>
+                            </div>
+                        </div>
+
+                        <!-- Event 3 -->
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Annual Temple Anniversary Celebrations">Annual Temple
+                                    Anniversary Celebrations</h3>
+                                <div class="card-text">
+                                    <p>Date: July 20th, 2024</p>
+                                    <p>Time: 9:00 AM</p>
+                                </div>
+                                <a href="/events/temple-anniversary" class="card-button">More Details</a>
+                            </div>
+                        </div>
+
+                        <!-- Repeat cards for seamless effect -->
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Akshaya Tritiya Special Pooja">Akshaya Tritiya Special
+                                    Pooja</h3>
+                                <div class="card-text">
+                                    <p>Date: May 15th, 2024</p>
+                                    <p>Time: 10:00 AM</p>
+                                </div>
+                                <a href="/events/akshaya-tritiya" class="card-button">More Details</a>
+                            </div>
+                        </div>
+
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Monthly Sankashti Chaturthi">Monthly Sankashti Chaturthi
+                                </h3>
+                                <div class="card-text">
+                                    <p>Date: June 3rd, 2024</p>
+                                    <p>Time: 6:00 PM</p>
+                                </div>
+                                <a href="/events/sankashti-chaturthi" class="card-button">More Details</a>
+                            </div>
+                        </div>
+
+                        <div class="event-card">
+                            <div class="card-content">
+                                <h3 class="card-title" title="Annual Temple Anniversary Celebrations">Annual Temple
+                                    Anniversary Celebrations</h3>
+                                <div class="card-text">
+                                    <p>Date: July 20th, 2024</p>
+                                    <p>Time: 9:00 AM</p>
+                                </div>
+                                <a href="/events/temple-anniversary" class="card-button">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pooja-services container">
+            <h2>Our Pooja Services</h2>
+            <p>We offer a range of pooja services to suit your spiritual needs. Choose from our list of services to seek
+                blessings for you and your family.</p>
+                <div class="pooja-grid">
+                    <!-- Pooja 1 -->
+                    <div class="pooja-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Ganesh Homa</h3>
+                            <p class="card-text">This pooja invokes the blessings of Lord Ganesha to remove obstacles and ensure success in all endeavors.</p>
+                            <a href="/poojas/ganesh-homa" class="card-button">Book Now</a>
+                        </div>
+                    </div>
+                
+                    <!-- Pooja 2 -->
+                    <div class="pooja-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Abhisheka</h3>
+                            <p class="card-text">Performing abhisheka to Lord Ganesha is considered highly auspicious and brings peace and prosperity to the family.</p>
+                            <a href="/poojas/abhisheka" class="card-button">Book Now</a>
+                        </div>
+                    </div>
+                
+                    <!-- Pooja 3 -->
+                    <div class="pooja-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Navagraha Pooja</h3>
+                            <p class="card-text">This pooja is performed to appease the nine celestial bodies and receive their blessings for good fortune.</p>
+                            <a href="/poojas/navagraha-pooja" class="card-button">Book Now</a>
+                        </div>
+                    </div>
+                
+                    <!-- Pooja 4 -->
+                    <div class="pooja-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Satyanarayana Pooja</h3>
+                            <p class="card-text">Offering prayers to Lord Vishnu, this pooja is performed for prosperity, health, and family harmony.</p>
+                            <a href="/poojas/satyanarayana-pooja" class="card-button">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="donations-section container">
+
+            <h2>Support the Temple</h2>
+            <p>Your contributions help us preserve the temple's sanctity and carry forward our spiritual and charitable
+                activities.</p>
+
+            <div class="donation-options">
+                <!-- General Donation -->
+                <div class="donation-card">
+                    <h3>General Donation</h3>
+                    <p>Help us with daily temple operations and maintenance. Every bit makes a difference.</p>
+                    <a href="/donate/general" class="btn">Donate Now</a>
+                </div>
+
+                <!-- Special Pooja Donation -->
+                <div class="donation-card">
+                    <h3>Special Pooja Donation</h3>
+                    <p>Support specific rituals like Ganesh Homa, Abhisheka, and others to seek divine blessings.</p>
+                    <a href="/donate/pooja" class="btn">Donate Now</a>
+                </div>
+            </div>
+
+            <!-- CTA for more info -->
+            <div class="cta">
+                <p>Want to learn more about how your donations are used? <a href="/donations/details">Click here</a>.
+                </p>
+            </div>
+        </section>
+        <!-- <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>Vue</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi I'm Adrian Twarog, a designer and developer who creates educational content on YouTube to
+                        teach others about HTML, CSS and JavaScript. I'm interested in AI topics which is why I also add
+                        things like ChatGPT into my projects these days!
+                    </p>
+                    <p>
+                        I'm currently working on a project that uses Azure AI to create a chatbot that can help answer
+                        questions about web development. I'm also working on a project that uses React and Next.js to
+                        create a portfolio website design that looks good.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-1.jpg" alt="Workplace 1 - YouTube Creator" width="100%" />
+                            <figcaption>
+                                Workplace - 1 YouTube Creator
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>YouTube Content Creator</h3>
+                    <div>2020-current</div>
+                    <p>Content creation online teaching people about how to code using HTML, CSS, JS.</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-2.jpg" alt="Workplace 2 - Moshi Moshi Marketing" width="100%" />
+                            <figcaption>
+                                Workplace - Moshi Moshi Marketing
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Moshi Moshi Marketing</h3>
+                    <div>20018-2020</div>
+                    <p>Marketing agency building websites and programming them from the ground up. </p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-3.jpg" alt="Workplace 3 - Chamber of Commerce" width="100%" />
+                            <figcaption>
+                                Workplace - Chamber of Commerce
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Chamber of Commerce</h3>
+                    <div>2013-2018</div>
+                    <p>A small to large business organisation that helps facilitate advice and support.</p>
+                </article>
+
+            </div>
+        </section> -->
+        <section id="projects" class="bento container">
+            <h2>
+                Gallery
+            </h2>
+            <div class="bento-grid">
+                <a href="#" class="bento-item">
+                    <img src="./imgs/1.jpg" alt="BGCCI" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/2.jpg" alt="Churhview" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/3.jpg" alt="Harley" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/5.jpg" alt="Bunbury" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/6.jpg" alt="Running" width="100%" />
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/7.jpg" alt="School" width="100%" />
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

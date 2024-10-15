@@ -29,6 +29,11 @@ body {
 	/* padding-bottom: 1000px; */
 }
 
+/* Smooth Scrolling for In-Page Links */
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for all anchor links */
+}
+
 a {
 	text-decoration: none;
 	color: var(--blue);
